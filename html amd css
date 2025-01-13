@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo"><a href="#">Saifi</a></div>
+      <nav>
+        <div class="nav-list"><a href="#">Home</a></div>
+        <div class="nav-list"><a href="#">About</a></div>
+        <div class="nav-list"><a href="#">Services</a></div>
+        <div class="nav-list"><a href="#">Projects</a></div>
+        <div class="nav-list"><a href="#">Contact</a></div>
+      </nav>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+:root {
+  font-size: 16px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+header {
+  height: 50px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  height: 50px;
+  width: 12%;
+}
+
+#logo a {
+  color: white;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo {
+  text-align: center;
+}
+
+#logo {
+  border: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+#logo a:hover {
+  color: yellow;
+}
+
+#logo a:active {
+  color: black;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-list a {
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-list a:hover {
+  color: yellow;
+}
+
+.nav-list a:active {
+  color: black;
+}
